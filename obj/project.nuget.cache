@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "16jFMlmo57zNBE5uj1hf9uz/8IZCtKfTfe/QH1bYwbwqWhy4VGDw8oDrQwuW/XP0dYvEK7h60c99ti1lFVhhKA==",
+  "dgSpecHash": "A//04HeBmTlRkB4dQ3MkW6gU9bFio6P+OCqTuTIMHln8tlT678mCs+3faN72Lqe7/nnLcaadWmF5pCmcqSO9MQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sneric\\RiderProjects\\WorkClock\\WorkClock\\WorkClock.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Sneric\\.nuget\\packages\\google.apis\\1.64.0\\google.apis.1.64.0.nupkg.sha512",
+    "C:\\Users\\Sneric\\.nuget\\packages\\google.apis.auth\\1.64.0\\google.apis.auth.1.64.0.nupkg.sha512",
+    "C:\\Users\\Sneric\\.nuget\\packages\\google.apis.core\\1.64.0\\google.apis.core.1.64.0.nupkg.sha512",
+    "C:\\Users\\Sneric\\.nuget\\packages\\google.apis.sheets.v4\\1.64.0.3148\\google.apis.sheets.v4.1.64.0.3148.nupkg.sha512",
+    "C:\\Users\\Sneric\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Sneric\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Sneric\\.nuget\\packages\\system.management\\7.0.2\\system.management.7.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -13,3 +13,13 @@ C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Release\net7.0\refint\Work
 C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Release\net7.0\WorkClock.pdb
 C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Release\net7.0\WorkClock.genruntimeconfig.cache
 C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Release\net7.0\ref\WorkClock.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Release\net7.0\Google.Apis.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Release\net7.0\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Release\net7.0\Google.Apis.Auth.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Release\net7.0\Google.Apis.Core.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Release\net7.0\Google.Apis.Sheets.v4.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Release\net7.0\Newtonsoft.Json.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Release\net7.0\System.CodeDom.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Release\net7.0\System.Management.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Release\net7.0\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Release\net7.0\WorkClock.csproj.CopyComplete

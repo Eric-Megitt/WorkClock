@@ -1,0 +1,15 @@
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Debug\net7.0\WorkClock.exe
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Debug\net7.0\WorkClock.deps.json
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Debug\net7.0\WorkClock.runtimeconfig.json
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Debug\net7.0\WorkClock.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\bin\Debug\net7.0\WorkClock.pdb
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Debug\net7.0\WorkClock.csproj.AssemblyReference.cache
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Debug\net7.0\WorkClock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Debug\net7.0\WorkClock.AssemblyInfoInputs.cache
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Debug\net7.0\WorkClock.AssemblyInfo.cs
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Debug\net7.0\WorkClock.csproj.CoreCompileInputs.cache
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Debug\net7.0\WorkClock.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Debug\net7.0\refint\WorkClock.dll
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Debug\net7.0\WorkClock.pdb
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Debug\net7.0\WorkClock.genruntimeconfig.cache
+C:\Users\Sneric\RiderProjects\WorkClock\WorkClock\obj\Debug\net7.0\ref\WorkClock.dll

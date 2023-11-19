@@ -1,9 +1,16 @@
 ﻿using System.IO;
 
 class Program {
-	static string logFileName = ".\\workedTime.file";
+	static string logFileName = "workedTime";
 	
+	
+	static string logFileDirectory = string.Empty;
 	static void Main(string[] args) {
+		List<string> directories = System.Reflection.Assembly.GetEntryAssembly().Location.Split("\\").ToList();
+		directories.RemoveAt(directories.Count - 1);
+		directories.ForEach(directory => logFileDirectory += directory + "\\");
+
+		logFileDirectory += logFileName;
 		
 		char action = ' ';
 
@@ -25,21 +32,24 @@ class Program {
 				originalConsoleColour = Console.ForegroundColor;
 				Console.ForegroundColor = ConsoleColor.Green;
 				byte[] data = BitConverter.GetBytes(DateTime.Now.ToBinary());
-				using (FileStream F = new FileStream(logFileName, FileMode.OpenOrCreate, FileAccess.ReadWrite)) {
+				using (FileStream F = new FileStream(logFileDirectory, FileMode.OpenOrCreate, FileAccess.ReadWrite)) {
 					F.Write(data, 0, data.Length);
 				}
 				Console.WriteLine("SUCCESSFULLY CLOCKED IN");
 				Console.ForegroundColor = originalConsoleColour;
 				break;
 			case 'O': //clock out
-				if (File.Exists(logFileName)) {
+				if (File.Exists(logFileDirectory)) {
 					WriteTimeWorked();
 					originalConsoleColour = Console.ForegroundColor;
 					Console.ForegroundColor = ConsoleColor.Red;
 					Console.Write("Confirm Clocking-Out (y): ");
 					string rawInput = Console.ReadLine();
-					if (rawInput.Length > 0 && rawInput.ToUpper()[0] == 'Y')
-						File.Delete(logFileName);
+					if (rawInput.Length > 0 && rawInput.ToUpper()[0] == 'Y') {
+						File.Delete(logFileDirectory);
+						Console.ForegroundColor = ConsoleColor.Green;
+						Console.Write("SUCCESSFULLY CLOCKED-OUT");
+					}
 					else {
 						Console.Write("Clock-Out Cancelled");
 					}
@@ -53,8 +63,8 @@ class Program {
 
 		static void WriteTimeWorked() {
 			byte[] data;
-			if (File.Exists(logFileName))
-				using (FileStream F = new FileStream(logFileName, FileMode.OpenOrCreate, FileAccess.Read)) {
+			if (File.Exists(logFileDirectory))
+				using (FileStream F = new FileStream(logFileDirectory, FileMode.OpenOrCreate, FileAccess.Read)) {
 					if (F.Length == 0) {
 						LogWarning("You haven't clocked in yet.");
 						return;
@@ -64,7 +74,7 @@ class Program {
 					F.Read(data, 0, data.Length);
 				}
 			else {
-				LogWarning($"Can't find log-file: \"{logFileName}\"");
+				LogWarning($"Can't find log-file: \"{logFileDirectory}\"");
 				return;
 			}
 			//if (data.Length == )

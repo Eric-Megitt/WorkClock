@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sneric\\RiderProjects\\WorkClock\\WorkClock\\WorkClock.csproj": {}
+    "C:\\Users\\Scott\\RiderProjects\\WorkClock\\WorkClock.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sneric\\RiderProjects\\WorkClock\\WorkClock\\WorkClock.csproj": {
+    "C:\\Users\\Scott\\RiderProjects\\WorkClock\\WorkClock.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sneric\\RiderProjects\\WorkClock\\WorkClock\\WorkClock.csproj",
+        "projectUniqueName": "C:\\Users\\Scott\\RiderProjects\\WorkClock\\WorkClock.csproj",
         "projectName": "WorkClock",
-        "projectPath": "C:\\Users\\Sneric\\RiderProjects\\WorkClock\\WorkClock\\WorkClock.csproj",
-        "packagesPath": "C:\\Users\\Sneric\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sneric\\RiderProjects\\WorkClock\\WorkClock\\obj\\",
+        "projectPath": "C:\\Users\\Scott\\RiderProjects\\WorkClock\\WorkClock.csproj",
+        "packagesPath": "C:\\Users\\Scott\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Scott\\RiderProjects\\WorkClock\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Sneric\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Scott\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\Scott\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }
